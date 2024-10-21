@@ -69,7 +69,7 @@ def get_context_before_timestamp(timestamp_dict, current_timestamp):
 
     return "\n\n".join(context)
 
-file_path = '/Users/sam/Downloads/Transcription for Mod 1 Lecture 2.docx'
+file_path = 'Transcription for Mod 1 Lecture 2.docx'
 document_content = extract_text_from_docx(file_path)
 timestamp_dict = create_timestamp_dictionary(document_content)
 
